@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 12px;
     color: rgba(253, 128, 8, 1.00);
     font-size: 4rem;
     font-weight: 300;
@@ -12,3 +12,24 @@ h1 {
 img {
     margin-left: 150px;
 }
+
+/* Navigation */
+#nav-bar {
+    display: flex;
+    justify-content: start;
+    padding-top: 8px;
+    font-size: 1.4rem;
+    /* background-color: rgba(187, 45, 45, 0.585); */
+    animation-name: changeCol;
+    animation-duration: 9s;
+}
+
+@keyframes changeCol {
+    from {
+        color: white;
+    }
+    to {
+        color: black;
+    }
+}
+
