@@ -1,35 +1,45 @@
+.landing-container {
+    position: relative;
+    background-color: black;
+}
+
+#landing-photo {
+    margin-left: 25%;
+    
+}
+
 #intro {
-    text-align: center;
-    margin-top: 12px;
+    position: absolute;
+    top: 3%;
+    left: 63%;
     color: rgba(253, 128, 8, 1.00);
     font-size: 4rem;
     font-weight: 300;
     line-height: 1.4;
     font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
-    word-spacing: 6px;
-}
-
-img {
-    margin-left: 150px;
+    word-spacing: 12px;
 }
 
 /* Navigation */
 #nav-bar {
+    position: absolute;
+    top: 6%;
+    left: 3%;
     display: flex;
     justify-content: start;
-    padding-top: 8px;
-    font-size: 1.4rem;
+    color: white;
+    font-size: 1.6rem;
     /* background-color: rgba(187, 45, 45, 0.585); */
     animation-name: changeCol;
-    animation-duration: 9s;
+    animation-duration: 12s;
 }
 
 @keyframes changeCol {
     from {
-        color: white;
+        color: black;
     }
     to {
-        color: black;
+        color: white;
     }
 }
 
