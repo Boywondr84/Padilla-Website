@@ -6,16 +6,18 @@
 #landing-photo {
     margin-left: 25%;
     animation-name: jp-photo1;
-    animation-duration: 16s;
+    animation-duration: 7s;
     opacity: 1;
 }
 
 @keyframes jp-photo1 {
     from {
         opacity: 0;
+        filter: blur(5px);
     }
     to {
         opacity: 1;
+        filter: blur(0);
     }
 }
 
@@ -29,6 +31,18 @@
     line-height: 1.4;
     font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
     word-spacing: 12px;
+    animation-name: introJP;
+    animation-duration: 16s;
+    opacity: 0;
+}
+
+@keyframes introJP {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 /* Navigation */
@@ -42,15 +56,17 @@
     font-size: 1.6rem;
     /* background-color: rgba(187, 45, 45, 0.585); */
     animation-name: changeCol;
-    animation-duration: 16s;
+    animation-duration: 20s;
 }
 
 @keyframes changeCol {
     from {
         color: black;
+        /* filter: blur(10px); */
     }
     to {
         color: white;
+        /* filter: blur(0); */
     }
 }
 
