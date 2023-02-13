@@ -6,7 +6,7 @@
 #landing-photo {
     margin-left: 25%;
     animation-name: jp-photo1;
-    animation-duration: 7s;
+    animation-duration: 16s;
     opacity: 1;
 }
 
@@ -22,15 +22,29 @@
 }
 
 #landing-video {
-    position: absolute;
-    top: 350px;
+    
+    /* top: 350px;
     right: 26%;
-    height: 150px;
+    height: 150px; */
+    width: 100%;
+    margin-top: 11%;
+    opacity: 0;
+    animation-name: smokeImage;
+    animation-duration: 11s;
+}
+
+@keyframes smokeImage {
+    from {
+        opacity: .35;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 #intro {
     position: absolute;
-    top: 57%;
+    top: 49%;
     left: 56%;
     color: rgba(253, 128, 8, 1.00);
     font-size: 4rem;
@@ -63,7 +77,7 @@
     font-size: 1.6rem;
     /* background-color: rgba(187, 45, 45, 0.585); */
     animation-name: changeCol;
-    animation-duration: 16s;
+    animation-duration: 25s;
 }
 
 @keyframes changeCol {
