@@ -68,15 +68,18 @@
 }
 
 /* Navigation */
-#nav-bar {
+.nav-bar {
     position: absolute;
-    top: 6%;
-    left: 3%;
-    display: flex;
-    justify-content: start;
+    top: 14%;
+    left: 4%;
+}
+
+.nav-links a {
+    display: inline-flexbox;
+    text-decoration: none;
     color: white;
-    font-size: 1.6rem;
-    /* background-color: rgba(187, 45, 45, 0.585); */
+    font-size: 22px;
+    margin-left: 34px;
     animation-name: changeCol;
     animation-duration: 25s;
 }

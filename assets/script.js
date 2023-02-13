@@ -12,4 +12,4 @@ function typeWriter() {
 }
 
 // window.onload=typeWriter();
-const pageLoadType = setTimeout(typeWriter, 1000);
+const pageLoadType = setTimeout(typeWriter, 1250);
