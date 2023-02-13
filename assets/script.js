@@ -1,7 +1,7 @@
 // Header animation
 var i = 0;
 var txt = 'Johnny Padilla';
-var speed = 200;
+var speed = 267;
 
 function typeWriter() {
     if (i < txt.length) {
