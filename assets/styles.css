@@ -28,6 +28,7 @@
     height: 150px; */
     width: 100%;
     margin-top: 11%;
+    max-height: 560px;
     opacity: 0;
     animation-name: smokeImage;
     animation-duration: 11s;
