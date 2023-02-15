@@ -74,8 +74,8 @@
     left: 4%;
 }
 
-.nav-links a {
-    display: inline-flexbox;
+#nav-links a {
+    /* display: inline-flexbox; */
     text-decoration: none;
     color: white;
     font-size: 22px;
@@ -84,9 +84,14 @@
     animation-duration: 25s;
 }
 
-.nav-links a:hover {
+#nav-links a:hover {
     text-decoration: underline;
 }
+
+.nav-bar .breadcrumb li+li::before {
+    content: none;
+}
+
 
 @keyframes changeCol {
     from {

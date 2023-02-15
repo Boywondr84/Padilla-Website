@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Staatliches&display=swap"
         rel="stylesheet" />
     <title>Johnny Padilla</title>
@@ -15,23 +16,37 @@
     <div class="landing-container">
         <!-- <img src="assets/images/J Padilla 2 Small.jpg" id="landing-photo" width="70%" height="600px"> -->
         <video src="assets/images/Thin_Smoke_86___4K_res.mp4" autoplay muted id="landing-video"></video>
-            <div container="smoke-name">
-                <div id="intro"></div>
-            </div>
+        <div container="smoke-name">
+            <div id="intro"></div>
+        </div>
     </div>
-<!-- </header>
+    <!-- </header>
 <navigation> -->
     <container class="nav-bar">
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="#recordings">Recordings</a>
-            <a href="#live">Club Dates</a>
-            <a href="#meet">Meet & Greet</a>
-        </div>
+        <nav class="breadcrumb is-medium" aria-label="breadcrumbs" id="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#live">Club Dates</a></li>
+                    <div class="dropdown is-hoverable">
+                        <div class="dropdown-trigger">
+                            <li><a href="#recordings">Recordings</a></li>
+                        </div>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <div class="dropdown-item">
+                                    <ul><a href="#album1">Album 1</ul></a>
+                                    <ul>Album 2</ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <li><a href="#meet">Meet & Greet</a></li>
+            </ul>
+        </nav>
     </container>
-<!-- </navigation> -->
+    <!-- </navigation> -->
 </header>
-    <!-- <h1 id="intro"></h1> -->
+<!-- <h1 id="intro"></h1> -->
 
 
 <body>
