@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .landing-container {
     position: relative;
     background-color: black;
@@ -72,10 +76,11 @@
     position: absolute;
     top: 14%;
     left: 4%;
+    display: flex;
 }
 
-#nav-links a {
-    /* display: inline-flexbox; */
+.navbar-item a {
+    display: inline;
     text-decoration: none;
     color: white;
     font-size: 22px;
@@ -84,7 +89,7 @@
     animation-duration: 25s;
 }
 
-#nav-links a:hover {
+.navbar-item a:hover {
     text-decoration: underline;
 }
 
@@ -104,3 +109,7 @@
     }
 }
 
+.navbar-dropdown ul {
+    color: black;
+    display: grid;
+}
