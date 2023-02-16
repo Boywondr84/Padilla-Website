@@ -93,10 +93,6 @@
     text-decoration: underline;
 }
 
-.nav-bar .breadcrumb li+li::before {
-    content: none;
-}
-
 
 @keyframes changeCol {
     from {
@@ -109,7 +105,15 @@
     }
 }
 
-.navbar-dropdown ul {
-    color: black;
-    display: grid;
+.club-modal-trigger {
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    display: inline;
+    animation-name: changeCol;
+    animation-duration: 25s;
+}
+
+.club-modal-trigger:hover {
+    text-decoration: underline;
 }
