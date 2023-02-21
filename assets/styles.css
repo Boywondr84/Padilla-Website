@@ -93,11 +93,6 @@
     text-decoration: underline;
 }
 
-/* .navbar-link a {
-    color: white;
-} */
-
-
 @keyframes changeCol {
     from {
         color: black;
@@ -132,6 +127,17 @@
 
 .table td {
     font-size: 20px;
+}
+
+#get-tickets {
+    color: black;
+    background-color: rgba(253, 128, 8, 1.00);
+    animation-name: changeCol;
+    animation-duration: 0s;
+    border: none;
+    font-size: 18px;
+    box-shadow: 5px 5px;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Recordings Dropdown */
