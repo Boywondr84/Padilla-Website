@@ -93,6 +93,10 @@
     text-decoration: underline;
 }
 
+/* .navbar-link a {
+    color: white;
+} */
+
 
 @keyframes changeCol {
     from {
@@ -113,6 +117,7 @@
     display: inline;
     animation-name: changeCol;
     animation-duration: 25s;
+    cursor: pointer;
 }
 
 .club-modal-trigger:hover {
@@ -130,7 +135,6 @@
 }
 
 /* Recordings Dropdown */
-
 .dropdown-content h2 {
     font-size: 18px;
     text-align: center;
@@ -142,4 +146,7 @@
     font-size: 18px;
     text-align: center;
     margin-bottom: 9px;
+    color: black;
+    animation-name: changeCol;
+    animation-duration: 0s;
 }
