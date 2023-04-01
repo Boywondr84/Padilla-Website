@@ -109,6 +109,7 @@
     font-size: 22px;
     background-color: black;
     color: white;
+    border: none;
     display: inline;
     animation-name: changeCol;
     animation-duration: 25s;
